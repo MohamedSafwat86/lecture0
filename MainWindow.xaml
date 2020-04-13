@@ -29,7 +29,7 @@
                 <TextBlock Text="Game Time:" HorizontalAlignment="Center" Margin="0,10,0,0" FontSize="16"/>
                 <TextBlock HorizontalAlignment="Center" Text="{Binding GameTime, StringFormat=00:00:{0:D2}}" Margin="0,10,0,0" FontSize="18" Foreground="Red"/>
             </StackPanel>
-            <Button Grid.Row="4" Content="Start Game !" HorizontalAlignment="Center" VerticalAlignment="Center" MinWidth="100" MinHeight="35" Click="Button_Click"/>
+            <Button Grid.Row="4" Content="Start Game ! " HorizontalAlignment="Center" VerticalAlignment="Center" MinWidth="100" MinHeight="35" Click="Button_Click"/>
         </Grid>
     </Grid>
 </Window>

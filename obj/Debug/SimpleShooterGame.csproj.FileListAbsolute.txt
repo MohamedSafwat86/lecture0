@@ -1,0 +1,16 @@
+C:\Users\gigabyte\Source\repos\SimpleShooterGame\bin\Debug\SimpleShooterGame.exe.config
+C:\Users\gigabyte\Source\repos\SimpleShooterGame\bin\Debug\SimpleShooterGame.exe
+C:\Users\gigabyte\Source\repos\SimpleShooterGame\bin\Debug\SimpleShooterGame.pdb
+C:\Users\gigabyte\Source\repos\SimpleShooterGame\obj\Debug\SimpleShooterGame.csprojAssemblyReference.cache
+C:\Users\gigabyte\Source\repos\SimpleShooterGame\obj\Debug\MainWindow.g.cs
+C:\Users\gigabyte\Source\repos\SimpleShooterGame\obj\Debug\App.g.cs
+C:\Users\gigabyte\Source\repos\SimpleShooterGame\obj\Debug\SimpleShooterGame_MarkupCompile.cache
+C:\Users\gigabyte\Source\repos\SimpleShooterGame\obj\Debug\SimpleShooterGame_MarkupCompile.lref
+C:\Users\gigabyte\Source\repos\SimpleShooterGame\obj\Debug\App.baml
+C:\Users\gigabyte\Source\repos\SimpleShooterGame\obj\Debug\MainWindow.baml
+C:\Users\gigabyte\Source\repos\SimpleShooterGame\obj\Debug\SimpleShooterGame.g.resources
+C:\Users\gigabyte\Source\repos\SimpleShooterGame\obj\Debug\SimpleShooterGame.Properties.Resources.resources
+C:\Users\gigabyte\Source\repos\SimpleShooterGame\obj\Debug\SimpleShooterGame.csproj.GenerateResource.cache
+C:\Users\gigabyte\Source\repos\SimpleShooterGame\obj\Debug\SimpleShooterGame.csproj.CoreCompileInputs.cache
+C:\Users\gigabyte\Source\repos\SimpleShooterGame\obj\Debug\SimpleShooterGame.exe
+C:\Users\gigabyte\Source\repos\SimpleShooterGame\obj\Debug\SimpleShooterGame.pdb

@@ -1,0 +1,128 @@
+﻿<Application x:Class="SimpleShooterGame.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SimpleShooterGame"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <DrawingImage x:Key="HouseDrawingImage">
+            <DrawingImage.Drawing>
+                <DrawingGroup>
+                    <GeometryDrawing>
+                        <GeometryDrawing.Pen>
+                            <Pen Thickness="10" Brush="Black"/>
+                        </GeometryDrawing.Pen>
+                        <GeometryDrawing.Geometry>
+                            <PathGeometry Figures="M400,20 l-300,100 l30,30 L400,55 l300,95 l30,-30 z"/>
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                    <GeometryDrawing Brush="#FFFF8383">
+                        <GeometryDrawing.Pen>
+                            <Pen Thickness="1" Brush="Black"/>
+                        </GeometryDrawing.Pen>
+                        <GeometryDrawing.Geometry>
+                            <PathGeometry Figures="M400,20 l-300,100 l30,30 L400,55 l300,95 l30,-30 z"/>
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                    <GeometryDrawing Brush="#FFFDC5C5">
+                        <GeometryDrawing.Geometry>
+                            <PathGeometry Figures="M350,45 l-200,70 A200,120,-25,0,0,350,45"/>
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                    <GeometryDrawing Brush="Yellow">
+                        <GeometryDrawing.Pen>
+                            <Pen Thickness="10" Brush="Black"/>
+                        </GeometryDrawing.Pen>
+                        <GeometryDrawing.Geometry>
+                            <PathGeometry Figures="M150,154 v34 h530 v-34 L400,55 z"/>
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                    <GeometryDrawing Brush="Yellow">
+                        <GeometryDrawing.Geometry>
+                            <PathGeometry Figures="M155,174 v300 h50 v-300 M205,300 h475 v100 h-475 M335,180 v120 h160 v-120 M625,180 v120 h55 v-120"/>
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                    <GeometryDrawing Brush="#FFD5BA2E">
+                        <GeometryDrawing.Geometry>
+                            <PathGeometry Figures="M200,135 l200,-50 l280,90 v-20 L400,55 z" />
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                    <GeometryDrawing>
+                        <GeometryDrawing.Pen>
+                            <Pen Thickness="8" Brush="Brown"/>
+                        </GeometryDrawing.Pen>
+                        <GeometryDrawing.Geometry>
+                            <PathGeometry Figures="M208,179 v124 h131 v-124 z"/>
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                    <GeometryDrawing>
+                        <GeometryDrawing.Pen>
+                            <Pen Thickness="8" Brush="Brown"/>
+                        </GeometryDrawing.Pen>
+                        <GeometryDrawing.Geometry>
+                            <PathGeometry Figures="M495,179 v124 h131 v-124 z"/>
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                    <GeometryDrawing Brush="Yellow">
+                        <GeometryDrawing.Geometry>
+                            <PathGeometry Figures="M204,399 v75 h150 v-75 z "/>
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                    <GeometryDrawing Brush="Yellow">
+                        <GeometryDrawing.Geometry>
+                            <PathGeometry Figures="M504,399 v75 h176 v-75 z "/>
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                    <GeometryDrawing Brush="Yellow">
+                        <GeometryDrawing.Geometry>
+                            <PathGeometry Figures="M504,399 v75 h176 v-75 z "/>
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                    <GeometryDrawing>
+                        <GeometryDrawing.Pen>
+                            <Pen Thickness="10" Brush="Black"/>
+                        </GeometryDrawing.Pen>
+                        <GeometryDrawing.Geometry>
+                            <PathGeometry Figures="M155,480 h526"/>
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                    <GeometryDrawing>
+                        <GeometryDrawing.Pen>
+                            <Pen Thickness="8" Brush="Brown"/>
+                        </GeometryDrawing.Pen>
+                        <GeometryDrawing.Geometry>
+                            <PathGeometry Figures="M349,475 v-80 h160 v80"/>
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                    <GeometryDrawing Brush="#FFD5BA2E">
+                        <GeometryDrawing.Geometry>
+                            <PathGeometry Figures="M230,310 a50,5,0,0,0,120,0 a10,50,0,0,0,0,-100 v100"/>
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                    <GeometryDrawing Brush="#FFD5BA2E">
+                        <GeometryDrawing.Geometry>
+                            <PathGeometry Figures="M530,310 a50,5,0,0,0,101,0 a10,50,0,0,0,0,-80 v80"/>
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                    <GeometryDrawing Brush="#FFD5BA2E">
+                        <GeometryDrawing.Geometry>
+                            <PathGeometry Figures="M420,388 a50,5,0,0,1,101,0 a10,50,0,0,1,0,80 v-80"/>
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                </DrawingGroup>
+            </DrawingImage.Drawing>
+        </DrawingImage>
+
+        <DrawingImage x:Key="HouseBackgroundImage">
+            <DrawingImage.Drawing>
+                <DrawingGroup>
+                    <GeometryDrawing Brush="White">
+                        <GeometryDrawing.Geometry>
+                            <PathGeometry Figures="M200,154 h450 v320 h-450"/>
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                </DrawingGroup>
+            </DrawingImage.Drawing>
+        </DrawingImage>
+
+    </Application.Resources>
+</Application>
